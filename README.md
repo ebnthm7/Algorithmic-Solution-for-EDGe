@@ -23,4 +23,6 @@ The first thing that will be printed is a statement of which player has the winn
 
 We recommend using an interface which allows for code cells as they are show in (paper title). This allows for the game play to be done much faster especially for larger graphs which can take a few hours to generate. 
 
-If desired, the program can be used to show the exact series of moves needed to win. To do this, the value _tuple(empty_board)_ under the comment _#Print possible moves based on board_ should be replaced with the desired board. The board will be the second tuple in the printed list. 
+If desired, the program can be used to show the exact series of moves needed to win. To do this, the value _tuple(empty_board)_ in se second to last cell should be replaced with the desired board. The board will be the second tuple in the printed list. 
+
+The final cell of the program will generate an image of the directed graph used to determine the winning strategy. 
