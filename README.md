@@ -21,4 +21,6 @@ Output:
 ------
 The first thing that will be printed is a statement of which player has the winning strategy. The next will be every possible move Player 1 can make from the empty board. The tuple on the left is the current state of the board while the right tuple is the move a player can make. The entries in the tuple are ordered the same way as they are in the adjacency list, so the first entry should be vertex "a" and so on till the end is reached. The object of both players is to make a move that is labeled with a "p". Whichever player does this first ensures they will win the game regardless of the move made by the oppposing player. Every subsequent move by the winning player should be on a board labeled "p". 
 
-If desired, the program can be used to show the exact series of moves needed to win. To do this, the value _tuple(empty_board)_ under the comment #Print possible moves based on board should be replaced with the desired board. The board will be the second tuple in the printed list. 
+We recommend using an interface which allows for code cells as they are show in (paper title). This allows for the game play to be done much faster especially for larger graphs which can take a few hours to generate. 
+
+If desired, the program can be used to show the exact series of moves needed to win. To do this, the value _tuple(empty_board)_ under the comment _#Print possible moves based on board_ should be replaced with the desired board. The board will be the second tuple in the printed list. 
