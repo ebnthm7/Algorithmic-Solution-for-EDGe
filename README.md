@@ -30,5 +30,7 @@ The final cell of the program will generate an image of the directed graph used 
 Versions:
 --------
 python - 3.12.1
+
 networkx - 3.3
+
 matplotlib - 3.8.3
