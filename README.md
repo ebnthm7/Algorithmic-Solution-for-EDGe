@@ -26,3 +26,9 @@ We recommend using an interface which allows for code cells as they are show in 
 If desired, the program can be used to show the exact series of moves needed to win. To do this, the value _tuple(empty_board)_ in se second to last cell should be replaced with the desired board. The board will be the second tuple in the printed list. 
 
 The final cell of the program will generate an image of the directed graph used to determine the winning strategy. 
+
+Versions:
+--------
+python - 3.12.1
+networkx - 3.3
+matplotlib - 3.8.3
