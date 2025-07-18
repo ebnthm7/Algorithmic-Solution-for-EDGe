@@ -1,7 +1,7 @@
 # Algorithmic Solution for EDGe
 The program included in the repository is the primary companion code of that included in _The Edge-Distinguishing Game_. Given an adjacency list, the program will determine which player will win the game EDGe if they play perfectly. Using an interface which allows for cells, it can be used to play the game and determine the exact moves needed to win the game. 
 
-Here, we provide a description of the inputs needed for the program as well as the interpretation of the output. An in-depth walk through of the code may be found in the file _EDGe-Algorithm-Suppliment_.
+Here, we provide a description of the inputs needed for the program as well as the interpretation of the output. An in-depth walk through of the code may be found in the file _EDGe-Algorithm-Suppliment_ included in this repository.
 
 Note: Two versions of the code are included in this repository. We suggest using a Jupyter Notebook, or something similar, for interactive play with the game; however, in general, the kernal will die if a graph has more than 9 vertices. In that case we suggest running the python file through the desired IDE.
 
