@@ -1,9 +1,9 @@
 # Algorithmic Solution for EDGe
-The program included in the repository is the primary companion code of that included in [_The Edge-Distinguishing Game_](https://arxiv.org/abs/2508.21185). Given an adjacency list, the program will determine which player will win the game EDGe if they play perfectly. Using an interface which allows for cells, it can be used to play the game and determine the exact moves needed to win the game. 
+The program included in the repository is the primary companion code of that included in [_The Edge-Distinguishing Game_](https://arxiv.org/abs/2508.21185). Given an adjacency list, the program will determine which player will win the game EDGe if they play perfectly. Using an interface which allows for cells, it can be used to play the game in real time to determine the exact moves needed to win the game. 
 
 Here, we provide a description of the inputs needed for the program as well as the interpretation of the output. An in-depth walk through of the code may be found in the file _EDGe-Algorithm-Suppliment_ included in this repository.
 
-Note: Two versions of the code are included in this repository. We suggest using a Jupyter Notebook, or something similar, for interactive play with the game; however, in general, the kernal will die if a graph has more than 9 vertices. In that case we suggest running the python file through the desired IDE.
+Note: Two versions of the code are included in this repository. We suggest using a Jupyter Notebook, or something similar, for interactive play with the game; however, in general, the kernal will die if a graph has more than 9 vertices. In that case, we suggest running the python file through the desired IDE.
 
 Labeling and Entering the Graph:
 -------------------------------
@@ -13,11 +13,11 @@ Before entering the graph, draw a picture of the figure and label as follows:
 
 Once the graph is labeled, create the adjacency list as follows:
 1. Create a list with as many entries as there are vertices, with each entry being a list (each list within the larger list represents a vertex).
-2. Within each list, list the "names" of the adjacent vertices. For example, a graph with three vertices "a", "b", and "c" in a line, the corresponding adjacency list would be [["b"], ["a","c"],["b"]]. Both of the ends have only one entry ("b") because they are only connected to the middle vertex.
+2. Within each list, enter the "names" of the adjacent vertices. For example, a graph with three vertices "a", "b", and "c" in a line, the corresponding adjacency list would be [["b"], ["a","c"],["b"]]. Both of the ends have only one entry ("b") because they are only connected to the middle vertex.
 
 Entering the EDCN:
 -----------------
-The program requires the edge-distinguishing chromatic number (EDCN) of the graph to be entered as a constant. If the value of the EDCN for a graph is known, it can be entered. If it is not known, refer to the other program mentioned in the references of _The Edge-Distinguishing Game_ to determine the EDCN, then enter it. 
+The program requires the edge-distinguishing chromatic number (EDCN) of the graph to be entered as a constant. If the value of the EDCN for a graph is known, it can be entered. If it is not known, refer to the other program mentioned in the references of [_The Edge-Distinguishing Game_](https://arxiv.org/abs/2508.21185) to determine the EDCN, then enter it. 
 
 Output:
 ------
